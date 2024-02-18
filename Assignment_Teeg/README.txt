@@ -1,5 +1,5 @@
 How to run the project ->
-1) Download project from Git (URL : )
+1) Download project from Git (URL : https://github.com/OmkarJ9691/Assignment_Timezone1/tree/main/Assignment_Teeg)
 2) Open project in Visual Studio 2022 and Build & Run the project.
 3) Download Postman collection file (GuestAPI.postman_collection.json) present in the root path of applicaion and Import it in Postman App.
 4) Test endpoint with dummy data.
