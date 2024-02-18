@@ -1,0 +1,65 @@
+﻿<Properties StartupConfiguration="{DBB4656C-4B37-4E4F-88CD-DC5BD1CDA74B}|https">
+  <MonoDevelop.Ide.ItemProperties.Assignment.Web PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment.Web/Program.cs">
+    <Files>
+      <File FileName="Assignment.UnitTest/UnitTest1.cs" Line="11" Column="14" />
+      <File FileName="Assignment.Web/Program.cs" Line="24" Column="116" />
+      <File FileName="Assignment.Web/appsettings.json" Line="12" Column="20" />
+      <File FileName="Assignment.Domain1/Customer.cs" Line="13" Column="1" />
+      <File FileName="Assignment.Web/Controllers/HomeController.cs" Line="33" Column="6" />
+      <File FileName="Assignment.Domain1/Product.cs" Line="12" Column="53" />
+      <File FileName="Assignment.Domain1/Order.cs" Line="10" Column="26" />
+      <File FileName="Assignment.Application1/Class1.cs" Line="10" Column="105" />
+      <File FileName="Assignment.Infrastructure1/Class1.cs" Line="14" Column="65" />
+      <File FileName="Assignment.Application1/Features/Product/Commands/EmptyClass.cs" Line="38" Column="2" />
+      <File FileName="Assignment.Application1/Features/Product/Queries/GetAllProductsQuery.cs" Line="17" Column="59" />
+      <File FileName="Assignment.Domain1/Common/BaseEntity.cs" Line="6" Column="4" />
+      <File FileName="Assignment.Infrastructure1/Context/ApplicationDbContext.cs" Line="19" Column="31" />
+      <File FileName="Assignment.Application1/IProductDbContext.cs" Line="16" Column="1" />
+      <File FileName="Assignment.Application1/Features/Product/Commands/UpdateProductCommand.cs" Line="20" Column="63" />
+      <File FileName="Assignment.Application1/Features/Product/Commands/UpdateProductCommand (copy).cs" Line="26" Column="63" />
+      <File FileName="Assignment.Application1/Features/Product/Queries/GetProductByIdQuery.cs" Line="18" Column="45" />
+      <File FileName="Assignment.Web/Controllers/OrderController.cs" Line="22" Column="50" />
+      <File FileName="Assignment.Application1/Features/Order/Queries/GetProductByIdQuery.cs" Line="19" Column="33" />
+      <File FileName="Assignment.Application1/Features/Order/Commands/DeleteProductCommand.cs" Line="25" Column="49" />
+      <File FileName="Assignment.Application1/Features/Order/Commands/CreateOrderCommand.cs" Line="21" Column="14" />
+      <File FileName="Assignment.Web/Controllers/ProductController (copy).cs" Line="3" Column="15" />
+      <File FileName="Assignment.Application1/Features/Customer/Commands/CreateProductCommand.cs" Line="34" Column="32" />
+      <File FileName="Assignment.Application1/Features/Customer/Commands/DeleteProductCommand.cs" Line="25" Column="54" />
+      <File FileName="Assignment.Application1/Features/Customer/Commands/UpdateProductCommand.cs" Line="30" Column="40" />
+      <File FileName="Assignment.UnitTest/Usings.cs" Line="1" Column="1" />
+      <File FileName="Assignment.UnitTest/OrderControllerTest.cs" Line="1" Column="6" />
+      <File FileName="Assignment.UnitTest/CustomerControllerTest.cs" Line="35" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment" expanded="True">
+            <Node name="Assignment.Web" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Assignment">
+            <Node name="Assignment.UnitTest" expanded="True">
+              <Node name="Assignment.UnitTest" expanded="True">
+                <Node name="CustomerControllerTest" expanded="True" />
+                <Node name="OrderControllerTest" expanded="True" />
+                <Node name="ProductControllerTest" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

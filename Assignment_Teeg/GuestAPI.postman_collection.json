@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "2c0aace8-80cf-4bdf-beae-36e153430f0a",
+		"name": "GuestAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32497776"
+	},
+	"item": [
+		{
+			"name": "GetAllGuests",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44349/api/Guest",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"Guest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetGuestById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44349/api/Guest/a4d7fe78-ca07-4839-abe6-1c6289e613ab",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"Guest",
+						"a4d7fe78-ca07-4839-abe6-1c6289e613ab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddGuest",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": 1,\r\n    \"firstName\": \"Omkar\",\r\n    \"lastName\": \"Jadhav\",\r\n    \"birthDate\": \"2024-06-19\",\r\n    \"email\": \"omkarj@test.com\",\r\n    \"phoneNumbers\": [\r\n        \"9899999999\",\r\n        \"9888888888\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44349/api/guest",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"guest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddPhone",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"a4d7fe78-ca07-4839-abe6-1c6289e613ab\",\r\n    \"phoneNumbers\": [\r\n        \"9899999999\",\r\n        \"9888888899\"\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44349/api/Guest",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"Guest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
