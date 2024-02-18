@@ -5,7 +5,7 @@ How to run the project ->
 4) Test endpoint with dummy data.
 5) In-Memory storage mechanism is used for this.
 6) Clean architecture with CQRS+MediatR is used in the project.
-7) Logs are storing in Log/
+7) Logs are storing in Assignment.Web/Log/
 
 Any assumptions made ->
 
